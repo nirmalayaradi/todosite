@@ -10,6 +10,8 @@ console.log(users)
 let loggedUser = parsedUsers.find((user) => {
     if (user.isLogin === true){
         return user
+    }else{
+        window.location.href = 'login.html'
     }
 })
 console.log(loggedUser)
